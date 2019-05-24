@@ -1,0 +1,66 @@
+---
+title: "November curse"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+  word_document: default
+date: "April 17, 2018"
+---
+
+NULL HYPOTHESIS -  Mean losses for London teams in NOVEMBER is not more than mean losses in NOVEMBER for other teams.
+ALTERNATIVE HYPOTHESIS - Mean losses for London teams in NOVEMBER is more than mean losses in NOVEMBER for other teams.
+
+Read the loss and master dataset
+```{r}
+library(readr)
+library(dplyr)
+Team_loss <- read_csv("C:/RPROJECT/Team_loss.csv")
+Team_master <- read_csv("C:/RPROJECT/Team_match_master.csv")
+```
+
+Aggregate losses in November by LONDON teams and OTHER teams
+```{r}
+Team_loss_n = Team_master %>%
+  select(Team_Name,Month_Name,Month,Result) %>%
+  group_by(Team_Name,Month_Name,Month) %>%
+  summarise(Loss=sum(Result=="Lose")) %>%
+  arrange(Month)
+
+Team_loss_nov_lo = subset(Team_loss_n,Month_Name =='NOV' & (Team_Name == "Chelsea" | Team_Name == "Arsenal" | Team_Name == "Fulham" | Team_Name == "Tottenham Hotspur" | Team_Name == "Queens Park Rangers"))
+
+Team_loss_nov_oth = subset(Team_loss_n,Month_Name =='NOV' & (Team_Name != "Chelsea" & Team_Name != "Arsenal" & Team_Name != "Fulham" & Team_Name != "Tottenham Hotspur" & Team_Name != "Queens Park Rangers"))
+```
+
+Calculate sample mean and standard deviation and N
+```{r}
+lo_mean = mean(Team_loss_nov_lo$Loss)
+lo_sd = sd(Team_loss_nov_lo$Loss)
+
+oth_mean = mean(Team_loss_nov_oth$Loss)
+oth_sd = sd(Team_loss_nov_oth$Loss)
+
+lo_n = length(Team_loss_nov_lo$Loss)
+oth_n = length(Team_loss_nov_oth$Loss)
+```
+
+T statistic calculation
+```{r}
+a = lo_mean - oth_mean
+b = (lo_n - 1) * (lo_sd^2)
+c = (oth_n - 1) * (oth_sd^2)
+d = (lo_n + oth_n) -2
+sp = (b + c) /d
+e = sqrt((sp/lo_n) + (sp/oth_n))
+
+tstat = (a-0)/e
+tstat
+```
+
+Critical T value
+```{r}
+tcrit = qt(p = 0.1,df = (lo_n+oth_n-2),lower.tail = F)
+tcrit
+```
+
+Since this is an upper tail test, we reject the NULL HYPOTHESIS with a 90% CONFIDENCE and conclude that there is enough evidence to say that LONDON TEAMS tend to lose more in NOVEMBER than other teams.

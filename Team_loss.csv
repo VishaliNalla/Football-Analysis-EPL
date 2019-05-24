@@ -1,0 +1,298 @@
+Team_Name,Month_Name,Percent_Loss
+Arsenal,JAN,18.42
+Arsenal,FEB,7.89
+Arsenal,MAR,13.16
+Arsenal,APR,5.26
+Arsenal,MAY,2.63
+Arsenal,AUG,10.53
+Arsenal,SEP,7.89
+Arsenal,OCT,7.89
+Arsenal,NOV,13.16
+Arsenal,DEC,13.16
+Aston Villa,JAN,7.14
+Aston Villa,FEB,14.29
+Aston Villa,MAR,11.22
+Aston Villa,APR,13.27
+Aston Villa,MAY,7.14
+Aston Villa,AUG,6.12
+Aston Villa,SEP,7.14
+Aston Villa,OCT,12.24
+Aston Villa,NOV,7.14
+Aston Villa,DEC,14.29
+Blackburn Rovers,JAN,4.35
+Blackburn Rovers,FEB,13.04
+Blackburn Rovers,MAR,4.35
+Blackburn Rovers,APR,21.74
+Blackburn Rovers,MAY,8.7
+Blackburn Rovers,AUG,13.04
+Blackburn Rovers,SEP,4.35
+Blackburn Rovers,OCT,8.7
+Blackburn Rovers,NOV,8.7
+Blackburn Rovers,DEC,13.04
+Bolton Wanderers,JAN,4.55
+Bolton Wanderers,FEB,13.64
+Bolton Wanderers,MAR,4.55
+Bolton Wanderers,APR,9.09
+Bolton Wanderers,MAY,4.55
+Bolton Wanderers,AUG,9.09
+Bolton Wanderers,SEP,13.64
+Bolton Wanderers,OCT,13.64
+Bolton Wanderers,NOV,9.09
+Bolton Wanderers,DEC,18.18
+Bournemouth,JAN,5.56
+Bournemouth,FEB,11.11
+Bournemouth,MAR,5.56
+Bournemouth,APR,22.22
+Bournemouth,MAY,5.56
+Bournemouth,AUG,11.11
+Bournemouth,SEP,11.11
+Bournemouth,OCT,11.11
+Bournemouth,NOV,11.11
+Bournemouth,DEC,5.56
+Burnley,JAN,10.53
+Burnley,FEB,10.53
+Burnley,MAR,10.53
+Burnley,APR,15.79
+Burnley,MAY,5.26
+Burnley,AUG,10.53
+Burnley,SEP,5.26
+Burnley,OCT,10.53
+Burnley,NOV,5.26
+Burnley,DEC,15.79
+Cardiff City,JAN,18.18
+Cardiff City,FEB,9.09
+Cardiff City,MAR,13.64
+Cardiff City,APR,9.09
+Cardiff City,MAY,9.09
+Cardiff City,AUG,4.55
+Cardiff City,SEP,4.55
+Cardiff City,OCT,9.09
+Cardiff City,NOV,9.09
+Cardiff City,DEC,13.64
+Chelsea,JAN,5.26
+Chelsea,FEB,7.89
+Chelsea,MAR,13.16
+Chelsea,APR,7.89
+Chelsea,MAY,10.53
+Chelsea,AUG,5.26
+Chelsea,SEP,7.89
+Chelsea,OCT,15.79
+Chelsea,NOV,10.53
+Chelsea,DEC,15.79
+Crystal Palace,JAN,11.32
+Crystal Palace,FEB,11.32
+Crystal Palace,MAR,9.43
+Crystal Palace,APR,9.43
+Crystal Palace,MAY,5.66
+Crystal Palace,AUG,9.43
+Crystal Palace,SEP,9.43
+Crystal Palace,OCT,13.21
+Crystal Palace,NOV,9.43
+Crystal Palace,DEC,11.32
+Everton,JAN,9.09
+Everton,FEB,10.91
+Everton,MAR,10.91
+Everton,APR,9.09
+Everton,MAY,12.73
+Everton,AUG,5.45
+Everton,SEP,5.45
+Everton,OCT,12.73
+Everton,NOV,5.45
+Everton,DEC,18.18
+Fulham,JAN,9.09
+Fulham,FEB,7.27
+Fulham,MAR,12.73
+Fulham,APR,10.91
+Fulham,MAY,7.27
+Fulham,AUG,9.09
+Fulham,SEP,7.27
+Fulham,OCT,5.45
+Fulham,NOV,12.73
+Fulham,DEC,18.18
+Hull City,JAN,17.5
+Hull City,FEB,5
+Hull City,MAR,12.5
+Hull City,APR,7.5
+Hull City,MAY,15
+Hull City,AUG,7.5
+Hull City,SEP,2.5
+Hull City,OCT,5
+Hull City,NOV,15
+Hull City,DEC,12.5
+Leicester City,JAN,9.09
+Leicester City,FEB,13.64
+Leicester City,MAR,9.09
+Leicester City,APR,4.55
+Leicester City,AUG,4.55
+Leicester City,SEP,9.09
+Leicester City,OCT,9.09
+Leicester City,NOV,13.64
+Leicester City,DEC,27.27
+Liverpool,JAN,9.8
+Liverpool,FEB,5.88
+Liverpool,MAR,13.73
+Liverpool,APR,9.8
+Liverpool,MAY,9.8
+Liverpool,AUG,5.88
+Liverpool,SEP,15.69
+Liverpool,NOV,11.76
+Liverpool,DEC,17.65
+Manchester City,JAN,8.82
+Manchester City,FEB,11.76
+Manchester City,MAR,17.65
+Manchester City,APR,14.71
+Manchester City,MAY,5.88
+Manchester City,AUG,5.88
+Manchester City,SEP,8.82
+Manchester City,OCT,5.88
+Manchester City,NOV,5.88
+Manchester City,DEC,14.71
+Manchester United,JAN,12.5
+Manchester United,FEB,7.5
+Manchester United,MAR,7.5
+Manchester United,APR,17.5
+Manchester United,MAY,10
+Manchester United,AUG,7.5
+Manchester United,SEP,12.5
+Manchester United,OCT,5
+Manchester United,NOV,5
+Manchester United,DEC,15
+Newcastle United,JAN,10.34
+Newcastle United,FEB,9.2
+Newcastle United,MAR,14.94
+Newcastle United,APR,14.94
+Newcastle United,MAY,6.9
+Newcastle United,AUG,5.75
+Newcastle United,SEP,6.9
+Newcastle United,OCT,4.6
+Newcastle United,NOV,9.2
+Newcastle United,DEC,17.24
+Norwich City,JAN,8.33
+Norwich City,FEB,9.72
+Norwich City,MAR,13.89
+Norwich City,APR,16.67
+Norwich City,MAY,5.56
+Norwich City,AUG,6.94
+Norwich City,SEP,6.94
+Norwich City,OCT,11.11
+Norwich City,NOV,6.94
+Norwich City,DEC,13.89
+Queens Park Rangers,JAN,7.58
+Queens Park Rangers,FEB,10.61
+Queens Park Rangers,MAR,10.61
+Queens Park Rangers,APR,10.61
+Queens Park Rangers,MAY,10.61
+Queens Park Rangers,AUG,7.58
+Queens Park Rangers,SEP,6.06
+Queens Park Rangers,OCT,10.61
+Queens Park Rangers,NOV,10.61
+Queens Park Rangers,DEC,15.15
+Reading,JAN,4.55
+Reading,FEB,9.09
+Reading,MAR,18.18
+Reading,APR,9.09
+Reading,MAY,9.09
+Reading,AUG,4.55
+Reading,SEP,9.09
+Reading,OCT,4.55
+Reading,NOV,9.09
+Reading,DEC,22.73
+Southampton,JAN,5.77
+Southampton,FEB,11.54
+Southampton,MAR,7.69
+Southampton,APR,11.54
+Southampton,MAY,7.69
+Southampton,AUG,9.62
+Southampton,SEP,7.69
+Southampton,OCT,5.77
+Southampton,NOV,9.62
+Southampton,DEC,23.08
+Stoke City,JAN,15.28
+Stoke City,FEB,11.11
+Stoke City,MAR,11.11
+Stoke City,APR,12.5
+Stoke City,MAY,5.56
+Stoke City,AUG,5.56
+Stoke City,SEP,8.33
+Stoke City,OCT,12.5
+Stoke City,NOV,9.72
+Stoke City,DEC,8.33
+Sunderland,JAN,8.43
+Sunderland,FEB,13.25
+Sunderland,MAR,9.64
+Sunderland,APR,8.43
+Sunderland,MAY,6.02
+Sunderland,AUG,7.23
+Sunderland,SEP,9.64
+Sunderland,OCT,8.43
+Sunderland,NOV,10.84
+Sunderland,DEC,18.07
+Swansea City,JAN,9.21
+Swansea City,FEB,11.84
+Swansea City,MAR,11.84
+Swansea City,APR,11.84
+Swansea City,MAY,7.89
+Swansea City,AUG,3.95
+Swansea City,SEP,13.16
+Swansea City,OCT,7.89
+Swansea City,NOV,6.58
+Swansea City,DEC,15.79
+Tottenham Hotspur,JAN,8.7
+Tottenham Hotspur,FEB,6.52
+Tottenham Hotspur,MAR,19.57
+Tottenham Hotspur,APR,6.52
+Tottenham Hotspur,MAY,10.87
+Tottenham Hotspur,AUG,10.87
+Tottenham Hotspur,SEP,4.35
+Tottenham Hotspur,OCT,8.7
+Tottenham Hotspur,NOV,13.04
+Tottenham Hotspur,DEC,10.87
+Watford,JAN,17.65
+Watford,FEB,5.88
+Watford,MAR,17.65
+Watford,APR,11.76
+Watford,MAY,11.76
+Watford,AUG,5.88
+Watford,SEP,5.88
+Watford,OCT,5.88
+Watford,NOV,11.76
+Watford,DEC,5.88
+West Bromwich Albion,JAN,12.35
+West Bromwich Albion,FEB,4.94
+West Bromwich Albion,MAR,12.35
+West Bromwich Albion,APR,11.11
+West Bromwich Albion,MAY,9.88
+West Bromwich Albion,AUG,8.64
+West Bromwich Albion,SEP,6.17
+West Bromwich Albion,OCT,8.64
+West Bromwich Albion,NOV,9.88
+West Bromwich Albion,DEC,16.05
+West Ham United,JAN,11.86
+West Ham United,FEB,6.78
+West Ham United,MAR,10.17
+West Ham United,APR,11.86
+West Ham United,MAY,11.86
+West Ham United,AUG,10.17
+West Ham United,SEP,5.08
+West Ham United,OCT,6.78
+West Ham United,NOV,10.17
+West Ham United,DEC,15.25
+Wigan Athletic,JAN,16.22
+Wigan Athletic,FEB,2.7
+Wigan Athletic,MAR,5.41
+Wigan Athletic,APR,10.81
+Wigan Athletic,MAY,5.41
+Wigan Athletic,AUG,2.7
+Wigan Athletic,SEP,16.22
+Wigan Athletic,OCT,13.51
+Wigan Athletic,NOV,10.81
+Wigan Athletic,DEC,16.22
+Wolverhampton,JAN,13.04
+Wolverhampton,FEB,4.35
+Wolverhampton,MAR,21.74
+Wolverhampton,APR,13.04
+Wolverhampton,MAY,4.35
+Wolverhampton,SEP,13.04
+Wolverhampton,OCT,13.04
+Wolverhampton,NOV,8.7
+Wolverhampton,DEC,8.7
